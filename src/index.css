@@ -17,12 +17,16 @@ body {
   height: 100vh;
   margin: 0;
   padding: 10px;
+  color: darkgoldenrod;
 
-  background: no-repeat center/auto 100% url("https://images.cnbctv18.com/uploads/2024/08/shutterstock-2480509399-2024-08-368b960cfc07a7fc6986b47f60f0159d-scaled.jpg");
+  background: no-repeat center/auto 100% url("https://i.makeagif.com/media/4-29-2016/jCLouU.gif");
+  background-size: cover;
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
+  color: darkgreen;
+  text-shadow: 1px 1px 3px darkgoldenrod;
 }
