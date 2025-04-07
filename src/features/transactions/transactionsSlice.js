@@ -32,7 +32,7 @@ const transactionsSlice = createSlice({
       state.history.push({
         type: "deposit",
         amount: payload.amount, 
-        balance: state.balance.
+        balance: state.balance,
       });
     },
     withdrawal: (state, { payload }) => {
